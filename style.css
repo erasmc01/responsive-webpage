@@ -1,0 +1,111 @@
+
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: #F5F9FB;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+
+    padding: 10px;
+    margin: 10px;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+}
+
+h1 {
+    font-size: 12vw;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+h2 {
+    font-size: 8vw;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+
+h3 {
+    font-size: 6vw;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+
+p {
+    text-align: center;
+    line-height: 6vw;
+    font-size: 3.5vw;
+
+}
+
+.tagline {
+    font-size: 5vw;
+}
+
+footer {
+    font-size: 3vw;
+}
+.bold {
+    font-weight: bold;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto 0 auto;
+    padding-top: 20px;
+}
+
+/* Centers images */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 50%;
+}
+
+.carousel {
+    padding-bottom: 15px;
+    padding-top: 30px;
+}
+
+/* Splits bullet points in 2 columns */
+.multi-column {
+    font-size: 3vw;
+    column-count: 2;
+    list-style-position: inside;
+    padding-bottom: 20px;
+}
+/* Centers footer */
+footer {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/* RESPONSIVE DESIGN */
+
+/* Fluid Images */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.trivia-section img {
+    text-align: center;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.grid-container img {
+    justify-content: center;
+    align-content: center;
+}
